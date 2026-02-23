@@ -1,0 +1,124 @@
+.analyst-container {
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.analyst-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.analyst-tabs button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #f1f5f9;
+  cursor: pointer;
+}
+
+.analyst-tabs .active {
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+.card.wide {
+  margin-bottom: 20px;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.metric-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+.metric-card span {
+  color: #64748b;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.green {
+  color: #16a34a;
+}
+
+.forecast {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.forecast.blue { background: #eff6ff; }
+.forecast.green { background: #ecfdf5; }
+.forecast.purple { background: #faf5ff; }
+
+.risk-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.risk.high {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.risk.medium {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.report-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.report-row button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
