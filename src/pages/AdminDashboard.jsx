@@ -10,7 +10,7 @@ import {
   FaDatabase,
   FaEnvelope,
 } from "react-icons/fa";
-import "../styles/dashboard.css";
+import "../styles/Dashboard.css";
 
 function AdminDashboard() {
   const navigate = useNavigate();
